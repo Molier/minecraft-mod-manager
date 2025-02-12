@@ -154,11 +154,11 @@ environment without interaction, you can supply all the answers through the comm
 #### Command line arguments for `init`
 
 You can supply all the answers via the command line arguments.
-You can add these one after the other, for example: `mmm init -l curseforge -p 1.16.5 -m ./mods -c ./modlist.json`
+You can add these one after the other, for example: `mmm init -l forge -p 1.16.5 -m ./mods -c ./modlist.json`
 
 | Short | Long                            | Description                             | Value                                                                                                                                     | Example                            |
 |-------|---------------------------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| -l    | --loader                        | The mod loader to use                   | A valid loader from [the list of loaders](#loaders)                                                                                       | `mmm init -l curseforge`           |
+| -l    | --loader                        | The mod loader to use                   | A valid loader from [the list of loaders](#loaders)                                                                                       | `mmm init -l forge`           |
 | -g    | --game-version                  | The Minecraft version to use            | A valid Minecraft version                                                                                                                 | `mmm init -g 1.19.2`               |
 | -r    | --default-allowed-release-types | Which release types do you allow?       | A comma separated list of the following: <br/>`alpha`, `beta`, `release`                                                                  | `mmm init -r release,beta`         |
 | -m    | --mods-folder                   | Where do you want to download the mods? | An absolute or relative path to an **existing** folder<br/>Don't forget to use quotes for paths that include spaces or special characters | `mmm init -m "C:/My Modpack/mods"` |
